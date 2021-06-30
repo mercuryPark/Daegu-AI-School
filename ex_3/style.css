@@ -1,0 +1,17 @@
+/*
+h1{
+    font-size: 80px;
+}
+*/
+
+header {
+    color:red;
+}
+
+header h1{
+    color:blue;
+}
+
+header p{
+    color:green;
+}
