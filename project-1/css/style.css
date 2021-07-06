@@ -1,0 +1,167 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+color: #000000;
+text-decoration: none;
+
+}
+
+h3{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+
+.menu ul{
+    overflow: hidden;
+    background-color: white;
+}
+
+
+.menu li{
+    float:left;
+
+    width: 100px;
+    /* height: 50px; */
+    background-color: ;
+  /* border: solid 1px red; */
+
+border-top: solid 1px rgb(0,0,0,0.3);
+border-bottom: solid 1px rgb(0,0,0,0.3);
+border-left: solid 1px rgb(0,0,0,0.3);
+
+font-weight: 700;
+
+
+    /* text-align: center; */
+    /* line-height: 50px; */
+
+    /* padding : 15px; 0; */
+}
+
+.menu li a{
+    display: block;
+    text-align: center;
+
+    padding: 17px 0;
+}
+
+.menu li a:hover{
+    background-color: rebeccapurple;
+    color:white;
+}
+
+.menu li:last-child{
+    border-right: solid 1px rgb(0,0,0,0.3);
+}
+
+
+
+
+.kakao-lists li{
+    margin-bottom: 20px;
+}
+
+
+.kakao-lists li a{
+    display: block;
+    padding-left: 25px;
+}
+
+
+
+.kakao-lists li img{
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+.kakao-lists li img,
+.kakao-lists li .kakao-info {
+    vertical-align: middle;
+}
+
+.kakao-lists li .kakao-info {
+    display: inline-block;
+    
+}
+
+.kakao-lists li .kakao-info h3{
+    font-size: 18px;
+    margin: 0px;
+}
+
+.kakao-lists li .kakao-info span{
+    font-size: 14px; 
+    color: #c8c8c8;
+}
+
+
+.title-info{
+    display:inline-block;
+    color:rgb(191,141,49);
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 3px;
+
+}
+
+.living-lists {
+
+    width:750px;
+    background-color: rgb(0,0,0,0.05);
+}
+
+.living-lists .image-link,
+.living-lists .info-link {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.living-lists .image-link{
+    margin-right: 21px;
+}
+
+.living-lists .info-link {
+    width: 512px;
+}
+
+.data-wrap{
+    color: rgb(0,0,0,0.3)
+}
+
+
+.title-wrap {
+    border-top: solid 2px #000000;
+    border-bottom: solid 1px #000000;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding: 20px;
+}
+
+.title-wrap h3 {
+    margin-bottom: 20px;
+}
+
+.title-wrap .btn-wrap {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: stretch;
+    
+}
