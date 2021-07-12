@@ -9,7 +9,7 @@ h1{
 }
 
 
-/* 320px ~ 768px 미만 : 스마트폰
+/* /* 320px ~ 768px 미만 : 스마트폰
 768px ~ 1024px 미만: 태블릿
 1024px ~ 이상 ~ :pc */
 
@@ -21,8 +21,8 @@ h1{
     }
 } */
 
-
-/* .pc {
+/* 
+ .pc {
    
     color: red;
     font-size: 50px;
@@ -40,7 +40,7 @@ display: none;
     .mobile{
 display : block;
     }
-} */
+}  */
 
 /* 
 @media (min-width: 320px) and (max-width:767px) {
@@ -73,8 +73,8 @@ h1{
 }
  */
 
-/* 
 
+/* 
 .media-menu {
     list-style: none;
     margin: 0;
@@ -115,11 +115,11 @@ h1{
     .media-menu li:last-child {
         margin-bottom: 0;
     }
-}
-
-
- */
+}  */
 /* 
+
+ 
+
 .intro {
 position: fixed;
     display: flex;
@@ -178,10 +178,10 @@ main{
     padding-top: 80px;
 
 
-}
+} */
 
-
-@media (min-width: 320px) and (max-width: 767px) {
+/*  
+ @media (min-width: 320px) and (max-width: 767px) {
     .intro {
         position: static;
         flex-direction: column;
@@ -200,7 +200,7 @@ main{
     }
 } */
 
-/* 
+
 .container {
 display : flex;
 flex-wrap: wrap;
@@ -264,7 +264,7 @@ justify-content: space-between;
 .column:nth-child(5){
     margin-bottom:10px;
 }
-} */
+} 
 
 
 
