@@ -1,0 +1,187 @@
+@media (max-width: 767px){
+
+
+#intro {
+    height: 1150px;
+    background-image: url(../img/mobile/intro/mobile_intro_bg.png);
+}
+#intro .introWrap {
+    width: 189px;
+    height: 129px;
+
+    
+    margin-left: -94.5px;
+    /* background-color: yellow */
+
+    top: 230px;
+}
+
+
+#intro .introWrap .logo {
+    width: 189px;
+    height: 129px;
+    background-image: url(../img/mobile/intro/mobile_logo.png);
+}
+
+#intro .introWrap .lion,
+#intro .introWrap .rabbit,
+#intro .introWrap .bear,
+#intro .introWrap .monkey,
+#intro .cloudWrap .dragonfly {
+    display: none;
+}
+
+#intro .cloudWrap {
+    height: 350px;
+
+    top: 280px;
+}
+
+#intro .cloudWrap .leftCloud {
+    width: 267px;
+    height: 314px;
+    background-image: url(../img/mobile/intro/mobile_cloud1.png);
+}
+
+#intro .cloudWrap .rightCloud {
+    width: 237px;
+    height: 309px;
+    background-image: url(../img/mobile/intro/mobile_cloud2.png);
+}
+
+/* Farm */
+#farm1 {
+    height:450px;
+
+    background-image: url(../img/mobile/farm/farm1/mobile_farm1_bg.png);
+}
+
+#farm1 .leftRice1{
+    height:86px;
+    height: 150px;
+    background-image: url(../img/mobile/farm/farm1/mobile_leftrice.png);
+}
+
+#farm1 .rightRice1{
+    height:95px;
+    height: 17s0px;
+    background-image: url(../img/mobile/farm/farm1/mobile_rightrice.png);
+
+    top: -20px;
+}
+
+
+#farm1 .farmer {
+    width: 160px;
+    height: 250px;
+    background-image: url(../img/mobile/farm/farm1/mobile_farmer.png);
+
+    margin-left: -69px;
+}
+
+
+#farm1 .farmSpeechWrap{
+    width: 300px;
+
+    text-align:  center;
+
+    left: 50%;
+    margin-left:-150px;
+}
+
+#farm1 .farmSpeechWrap img{
+    width: 79px;
+}
+
+#farm1 .farmSpeechWrap .farmSpeech {
+    line-height: 20px;
+    font-size: 12px;
+}
+
+#farm2 {
+    height: 440px;
+    background-image: url(../img/mobile/farm/farm2/mobile_farm2_bg.png);
+
+}
+
+#farm2 .leftRice2 {
+    width: 57px;
+    height: 201px;
+    background-image: url(../img/mobile/farm/farm2/mobile_leftrice2.png);
+}
+
+
+#farm2 .rightRice2 {
+    width: 57px;
+    height: 201px;
+    background-image: url(../img/mobile/farm/farm2/mobile_rightrice2.png);
+}
+
+#farm2 .scarecrow {
+    display: none;
+}
+
+#farm3 {
+    height: 500px;
+    background-image: url(../img/mobile/farm/farm3/mobile_farm3_bg.png);
+}
+
+#farm3 .farm3Window {
+    width: 82px;
+    height: 56px;
+    background-image: url(../img/mobile/farm/farm3/mobile_window.png)
+}
+
+#farm3 .machineWrap {
+    width: 200px;
+    height: 150px;
+
+    top: 120px;
+    margin-left: -96px;
+}
+
+#farm3 .machineWrap .machine1 {
+    width: 191px;
+    height: 149px;
+    background-image: url(../img/mobile/farm/farm3/mobile_machine1.png);
+}
+
+#farm3 .machineWrap .sawShadow,
+#farm3 .machineWrap .timer,
+#farm3 .machineWrap .machineBird {
+    display: none;
+}
+
+#farm3 .machineWrap .saw1,
+#farm3 .machineWrap .saw2{
+    width: 31px;
+    height: 31px;
+    background-image: url(../img/mobile/farm/farm3/mobile_saw.png)
+}
+
+#farm3 .machineWrap .saw1{
+    margin: 50px 0 0 50px;
+}
+#farm3 .machineWrap .saw2{
+    margin: 50px 0 0 115px;
+}
+
+#farm3 .farm3Bubble {
+    position: absolute;
+
+    width: 152px;
+
+    left: 50%;
+    margin: 0 0 0 -70px;
+}
+
+
+
+
+
+
+
+
+
+
+}
