@@ -336,7 +336,353 @@ button {
 
 
 
+#forest1 {
+    width: 100%;
+    height: 1050px;
+    background-image: url(../img/forest/forest1/forest1_bg.png);
+}
+
+#forest1 .leftTree {
+    position: absolute;
+    width: 445px;
+    height: 1200px;
+    background-image: url(../img/forest/forest1/lefttree.png);
+
+    left:0;
+}
 
 
+#forest1 .treeWrap {
+    float: right;
+    position: relative;
 
 
+    width: 304px;
+    height: 572px;
+    /* background-color: yellow; */
+    
+
+    top: 100px;
+}
+
+#forest1 .treeWrap .rightTree {
+    position: absolute;
+
+    width: 304px;
+    height: 572px;
+    background-image: url(../img/forest/forest1/righttree.png);
+    z-index: 10;
+}
+
+#forest1 .treeWrap .rabbit1 {
+    position: absolute;
+    width: 82px;
+    height: 103px;
+    background-image: url(../img/forest/forest1/rabbit1.png);
+
+    margin: 435px 0 0 107px;
+}
+
+#forest1 .treeWrap .rabbit2 {
+    position: absolute;
+
+    width: 56px;
+    height: 75px;
+    background-image: url(../img/forest/forest1/rabbit2.png);
+
+    margin: 435px 0 0 200px;
+}
+
+#forest2 {
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/forest/forest2/forest2_bg.png);
+}
+
+#forest2 .frog {
+    position: absolute;
+
+    width: 153px;
+    height: 257px;
+    background-image: url(../img/forest/forest2/frog.png);
+
+    margin: 50px 0 0 100px;
+}
+
+#forest2 .machineWrap2 {
+    position: relative;
+
+    width: 400px;
+    height: 400px;
+
+    /* background-color: yellow; */
+
+    left: 50%;
+    margin-left: -180px;
+    top:180px;
+}
+
+
+#forest2 .machineWrap2 .machineBottom {
+    position: absolute;
+
+    width: 374px;
+    height: 162px;
+    background-image: url(../img/forest/forest2/machinebottom.png);
+
+    margin-top: 220px;
+
+    z-index: 200;
+}
+
+#forest2 .machineWrap2 .machineLeft {
+    position: absolute;
+
+    width: 123px;
+    height: 228px;
+    background-image: url(../img/forest/forest2/machineleft.png);
+
+    margin-top: 30px;
+
+    z-index: 200;
+}
+
+#forest2 .machineWrap2 .machineRight {
+    position: absolute;
+
+    width: 123px;
+    height: 248px;
+    background-image: url(../img/forest/forest2/machineright.png);
+
+  margin: 10px 0 0 260px;
+
+    z-index: 200;
+}
+
+#forest2 .forestBubble {
+    position: relative;
+
+    float: right;
+
+    top: -100px;
+    margin-right: 100px;
+}
+
+#forest2 .forest2Tree {
+    position: relative;
+
+    width: 304px;
+    height: 282px;
+    background-image: url(../img/forest/forest2/forest2tree.png);
+
+    top:50px;
+}
+
+
+#forest3{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/forest/forest3/forest3_bg.png);
+
+}
+
+#forest3 .forest3Wrap {
+    float: right;
+    position: relative;
+
+    width: 354px;
+    height: 440px;
+    /* background-color: yellow; */
+
+    top:100px;
+}
+
+#forest3 .forest3Wrap .forest3Tree {
+    position: absolute;
+
+    width: 354px;
+    height: 440px;
+    background-image: url(../img/forest/forest3/forest3tree.png);
+}
+
+#forest3 .forest3Wrap .smallBird {
+    position: absolute;
+
+    width: 40px;
+    height: 35px;
+    background-image: url(../img/forest/forest3/bird_sm.png);
+
+    top: 120px;
+    left: 125px;
+}
+
+#forest3 .forest3Wrap .bigBird {
+    position: absolute;
+
+    width: 83px;
+    height: 80px;
+    background-image: url(../img/forest/forest3/bird_big.png);
+
+    margin: 128px 0 0 200px;
+}
+
+#science {
+    position: relative;
+    
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/science/science_bg.png);
+}
+
+#science .scienceWrap {
+    position: relative;
+
+    width: 1068px;
+    height: 655px;
+    /* background-color: yellow; */
+    margin: 0 auto;
+}
+
+#science .scienceWrap .scienceLeftWrap {
+    position:relative;
+    float : left;
+    width: 288px;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+#science .scienceWrap .scienceLeftWrap .gly {
+    width: 230px;
+    height: 192px;
+    background-image: url(../img/science/gly.png);
+
+    margin: 0 0 130px 55px;
+
+}
+
+#science .scienceWrap .scienceLeftWrap p {
+    color: #8e7577; 
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 10px;
+    
+
+
+}
+
+#science .scienceWrap .scienceCenterWrap {
+  float:left;
+    width: 488px;
+    height: 100%;
+    /* background-color: cornflowerblue; */
+}
+
+#science .scienceWrap .scienceCenterWrap .purpleSteam{
+position: relative;
+
+width: 241px;
+height:216px;
+background-image: url(../img/science/grape.png);
+
+left: 50%;
+margin-left: -120px;
+}
+
+#science .scienceWrap .scienceCenterWrap .funnelBack {
+position: absolute;
+
+width: 488px;
+height: 438px;
+background-image: url(../img/science/funnelback.png);
+
+
+}
+#science .scienceWrap .scienceCenterWrap .funnelFront {
+    position: relative;
+    
+    width: 485px;
+    height: 390px;
+    background-image: url(../img/science/funnelFront.png);
+
+    margin-top: 48px;
+    /* background-color: crimson; */
+    
+    }
+
+#science .scienceWrap .scienceRightWrap {
+    float:right;
+      width: 292px;
+      height: 100%;
+      /* background-color: gray; */
+  }
+  
+  
+
+  #science .scienceWrap .scienceRightWrap .water {
+    width: 204px;
+    height: 191px;
+    background-image: url(../img/science/water.png);
+
+    margin-bottom:130px;
+
+}
+
+#science .scienceWrap .scienceRightWrap p {
+    color: #8e7577; 
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 10px;
+    
+
+
+}
+
+#night1 {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/oneday/night1/night1_bg.png);
+}
+
+#night1 .owl {
+    position: absolute;
+
+    width: 334px;
+    height: 571px;
+    background-image: url(../img/oneday/night1/owl.png);
+    
+    margin-top: 50px;
+
+}
+
+#night1 .starWrap {
+    position: relative;
+
+    width: 750px;
+    height: 400px;
+    /* background-color: pink; */
+ 
+    top:150px;
+    margin-left: 600px; 
+
+}
+
+
+#night1 .starWrap .star1,
+#night1 .starWrap .star2,
+#night1 .starWrap .star3{
+    position: absolute;
+
+    width: 53px;
+    height: 50px;
+    background-image: url(../img/oneday/night1/star1.png);
+}
+
+#night1 .starWrap .star1{
+margin-top: 350px;
+}
+#night1 .starWrap .star2{
+margin-left: 650px;
+}
+#night1 .starWrap .star3{
+margin: 250px 0 0 500px;
+}

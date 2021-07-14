@@ -175,6 +175,283 @@
     margin: 0 0 0 -70px;
 }
 
+#forest1 {
+    position: relative;
+
+    height: 400px;
+    background-image: url(../img/mobile/forest/forest1/mobile_forest1_bg.png);
+}
+
+#forest1 .leftTree {
+    width: 79px;
+    height: 187px;
+
+    background-image: url(../img/mobile/forest/forest1/mobile_lefttree.png);
+}
+
+
+#forest1 .treeWrap {
+
+     width: 68px;
+    height: 129px;
+
+    top: 200px;  
+
+} 
+
+#forest1 .treeWrap .rabbit1,
+#forest1 .treeWrap .rabbit2 {
+    display: none;
+}
+
+#forest1 .treeWrap .rightTree {
+    width: 68px;
+    height: 129px;
+    background-image: url(../img/mobile/forest/forest1/mobile_righttree.png);
+}
+
+#forest2 {
+    position: relative;
+
+height: 400px;
+background-image: url(../img/mobile/forest/forest2/mobile_forest2_bg.png);
+}
+
+#forest2 .frog {
+    width: 34px;
+    height: 57px;
+    background-image: url(../img/mobile/forest/forest2/mobile_frog.png);
+
+    margin: 0 0 0 20px;
+}
+
+#forest2 .machineWrap2 {
+    width: 200px;
+    height: 110px;
+
+    top: 70px;
+    margin-left: -97px;
+
+}
+
+#forest2 .machineWrap2 .machineBottom {
+    width: 141px;
+    height: 60px;
+    background-image: url(../img/mobile/forest/forest2/mobile_machinebottom.png);
+
+    left: 50%;
+    margin: 65px 0 0 -70.5px;
+}
+
+#forest2 .machineWrap2 .machineLeft {
+    width: 46px;
+    height: 85px;
+    background-image: url(../img/mobile/forest/forest2/mobile_machineleft.png);
+
+    margin: 0 0 0 20px;
+}
+
+
+#forest2 .machineWrap2 .machineRight {
+    width: 46px;
+    height: 93px;
+    background-image: url(../img/mobile/forest/forest2/mobile_machineright.png);
+
+    margin: -10px 0 0 130px;
+}
+
+#forest2 .forestBubble {
+    position: absolute;
+
+    width: 161px;
+
+    top: 290px;
+    left: 50%;
+    margin-left: -83px;
+}
+
+
+
+#forest2 .forest2Tree {
+
+    float: right;
+
+    width: 69px;
+    height: 76px;
+    background-image: url(../img/mobile/forest/forest2/mobile_forest2tree.png);
+  top : 130px;
+  margin-right: 20px;
+}
+
+#forest3 {
+    height: 630px;
+
+    background-image: url(../img/mobile/forest/forest3/mobile_forest3_bg.png);
+}
+
+
+#forest3 .forest3Wrap {
+    width: 99px;
+    height: 127px;
+    top: 300px;
+
+}
+#forest3 .forest3Wrap .forest3Tree {
+    width: 99px;
+    height: 127px;
+    background-image: url(../img/mobile/forest/forest3/mobile_forest3tree.png);
+}
+
+#forest3 .forest3Wrap .smallBird,
+#forest3 .forest3Wrap .bigBird{
+    display: none;
+}
+
+#science {
+    height: 580px;
+    background-image: url(../img/mobile/science/mobile_science_bg.png);
+}
+
+#science .scienceWrap {
+    overflow: hidden;
+    width: 360px;
+    height: auto;
+
+    top: 180px;
+   
+}
+
+#science .scienceWrap .scienceLeftWrap {
+    width: 100px;
+
+}
+
+#science .scienceWrap .scienceLeftWrap .gly {
+    width: 75px;
+    height: 63px;
+    background-image: url(../img/mobile/science/mobile_gly.png);
+
+    margin: 0 0  10px 0;
+}
+
+#science .scienceWrap .scienceLeftWrap img,
+#science .scienceWrap .scienceRightWrap img{
+    height: 15px;
+}
+
+#science .scienceWrap .scienceLeftWrap p,
+#science .scienceWrap .scienceRightWrap p{
+    display: none;
+}
+
+#science .scienceWrap .scienceCenterWrap {
+    width: 160px;
+    height: 222px;
+
+}
+
+#science .scienceWrap .scienceCenterWrap .purpleSteam {
+    width: 80px;
+    height: 71px;
+    background-image: url(../img/mobile/science/mobile_grape.png);
+
+    margin-left: -40px;
+}
+
+
+#science .scienceWrap .scienceCenterWrap .funnelBack {
+    width: 173px;
+    height: 151px;
+    background-image: url(../img/mobile/science/mobile_hopperback.png);
+}
+
+#science .scienceWrap .scienceCenterWrap .funnelFront {
+
+    width: 160px;
+    height: 122px;
+    background-image: url(../img/mobile/science/mobile_hopperfront.png);
+
+    left: 50%;
+    margin: 20px 0 0 -80px;
+}
+
+
+#science .scienceWrap .scienceRightWrap {
+    width: 100px;
+}
+
+#science .scienceWrap .scienceRightWrap .water {
+    width: 67px;
+    height: 63px;
+    background-image: url(../img/mobile/science/mobile_water.png);
+
+    margin-bottom: 10px;
+    margin-left: 32px;
+
+}
+
+
+#night1 {
+    position: relative;
+    height: 500px;
+    background-image: url(../img/mobile/oneday/night1/mobile_night1_bg.png);
+}
+
+#night1 .owl {
+    width: 88px;
+    height: 151px;
+    background-image: url(../img/mobile/oneday/night1/mobile_owl.png);
+
+    margin-top: 0;
+}
+
+#night1 .starWrap{
+    position: absolute;
+
+    width: 308px;
+    height: 157px;
+    /* background-color: pink; */
+    background-image: url(../img/mobile/oneday/night1/mobile_star.png);
+
+    top: 300px;
+    margin-left: 50px;
+}
+
+
+#night1 .starWrap .star1,
+#night1 .starWrap .star2,
+#night1 .starWrap .star3{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+#night1 .starWrap .star1,
+#night1 .starWrap .star2,
+#night1 .starWrap .star3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
