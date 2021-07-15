@@ -686,3 +686,288 @@ margin-left: 650px;
 #night1 .starWrap .star3{
 margin: 250px 0 0 500px;
 }
+
+#night2 {
+    position: relative;
+
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/oneday/night2/night2_bg.png);
+}
+
+#night2 .moon{
+    width: 135px;
+    height: 135px;
+    background-image: url(../img/oneday/night2/moon.png);
+}
+
+#night2 .night2Bubble {
+    position: absolute;
+
+    margin: 300px 0 0 80px;
+}
+
+#night2 .rightMoonTree {
+position: absolute;
+
+width: 243px;
+height: 588px;
+
+background-image: url(../img/oneday/night2/moontree.png);
+
+right: 0;
+bottom:0
+}
+
+
+#morning{
+    position: relative;
+
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/oneday/morning/morning_bg.png);
+}
+
+#morning .sun{
+    width: 131px;
+    height: 131px;
+    background-image: url(../img/oneday/morning/sun.png);
+}
+
+
+#morning .leftPine {
+    position:absolute;
+    width: 231px;
+    height: 329px;
+
+    background-image: url(../img/oneday/morning/leftpine.png);
+
+    top: 270px;
+}
+
+
+#morning .rightPine {
+    position: absolute;
+    width: 294px;
+    height: 609px;
+
+    background-image: url(../img/oneday/morning/rightpine.png);
+
+    right: 0;
+    bottom: 0;
+} 
+
+#kitchen {
+    position:relative;
+    width: 100%;
+    height: 800px;
+    background-image:url(../img/kitchen/kitchen_bg.png) ;
+}
+
+#kitchen .leftPan {
+    float : left;
+
+    width: 253px;
+    height: 384px;
+    background-image: url(../img/kitchen/pan.png);
+}
+
+#kitchen .rightPot{
+ float: right;
+
+ width: 243px;
+ height: 132px;
+ background-image: url(../img/kitchen/pot.png);
+}
+
+#kitchen .steamWrap {
+    position: relative;
+
+    width: 483px;
+    height: 457px;
+    /* background-color: yellow; */
+
+    left: 50%;
+    margin-left: -275px;
+    top: -100px;
+
+    clear: both;
+}
+
+#kitchen .steamWrap .steam {
+    position: absolute;
+
+    width: 479px;
+    height: 457px;
+    background-image: url(../img/kitchen/steam.png);
+    
+    z-index: 100;
+}
+
+#kitchen .steamWrap .bubble1 {
+    position: absolute;
+
+    width: 55px;
+    height: 56px;
+    background-image: url(../img/kitchen/bubble.png);
+
+    margin-top: 230px;
+}
+
+#kitchen .kitchenBubble {
+    position: absolute;
+
+    top: 400px;
+    right: 0;
+}
+
+#color1 {
+position: relative;
+
+    width: 100%;
+    height: 750px;
+
+    background-image: url(../img/color/color1/color1_bg.png);
+}
+
+#color1 .penguin {
+    position:relative;
+    width: 356px;
+    height: 244px;
+    background-image: url(../img/color/color1/penguin.png);
+
+    top: 100px;
+    left: 100px;
+}
+
+#color1 .color1Bubble{
+    
+    float : right;
+
+    margin: 100px 200px 0 0 ;
+}
+
+#color2 {
+    position:relative;
+
+    width:100%;
+    height: 800px;
+    background-image: url(../img/color/color2/color2_bg.png);
+}
+
+#color2 .horse {
+    float: right;
+    width: 188px;
+    height: 241px;
+    background-image: url(../img/color/color2/horse.png);
+
+    margin: 100px 100px 0 0;
+}
+
+#color2 .color2Wrap {
+    clear:both;
+    position: relative;
+
+    width: 500px;
+    /* background-color: yellow; */
+
+top: 100px;
+margin-left: 50px;
+
+}
+
+#color2 .color2Wrap .color2Bubble {
+    margin-bottom: 30px;
+}
+
+#color2 .color2Wrap .btn-wrap{
+    margin-bottom: 20px;
+}
+#color2 .color2Wrap .btn-wrap .red,
+#color2 .color2Wrap .btn-wrap .yellow,
+#color2 .color2Wrap .btn-wrap .blue {
+    width: 59px;
+    height: 82px;
+
+}
+
+#color2 .color2Wrap .btn-wrap .red{
+    background-image: url(../img/color/color2/btn/btn_red.png);
+}
+
+#color2 .color2Wrap .btn-wrap .yellow{
+    background-image: url(../img/color/color2/btn/btn_yellow.png);
+}
+
+#color2 .color2Wrap .btn-wrap .blue{
+    background-image: url(../img/color/color2/btn/btn_blue.png);
+}
+
+#color2 .color2Wrap .color2Comment {
+    color: #8e7577;
+}
+
+#color3{
+    position:relative;
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/color/color3/color3_bg.png);
+}
+
+#color3 .flag {
+    position: relative;
+    width: 1774px;
+    height: 178px;
+
+    background-image: url(../img/color/color3/flag.png);
+
+    left: 50%;
+    margin-left: -887px;
+}
+
+#color3 .book{
+    
+float: right;
+
+    width: 417px;
+    height: 178px;
+    background-image: url(../img/color/color3/book.png);
+}
+
+#color3 .logo {
+    position: absolute;
+
+    left: 50%;
+    margin-left: -378.5px;
+}
+
+#color3 .dice{
+    position: absolute;
+    width: 239px;
+    height: 200px;
+    background-image: url(../img/color/color3/dice.png);
+
+    left: 0;
+    bottom:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

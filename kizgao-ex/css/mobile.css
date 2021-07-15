@@ -425,20 +425,232 @@ background-image: url(../img/mobile/forest/forest2/mobile_forest2_bg.png);
 }
 
 
+#night2  {
+    height: 620px;
+    background-image: url(../img/mobile/oneday/night2/mobile_night2_bg.png);
+}
+
+#night2 .moon {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/mobile/oneday/night2/mobile_moon.png);
+
+    margin-top:0;
+}
+
+#night2 .night2Bubble {
+
+    width: 127px;
+    left: 50%;
+    margin: 300px 0 0 -67px;
 
 
+}
+
+#night2 .rightMoonTree {
+    width: 70px;
+    height: 173px;
+    background-image: url(../img/mobile/oneday/night2/mobile_moontree.png);
+
+    top: 70px;
+    bottom: initial;
+}
+
+#morning {
+    height:720px;
+    background-image: url(../img/mobile/oneday/morning/mobile_morning_bg.png);
+}
+
+#morning .sun {
+    width: 33px;
+    height: 32px;
+
+    background-image: url(../img/mobile/oneday/morning/mobile_sun.png);
+}
+
+#morning .leftPine {
+width: 48px;
+height: 81px;
 
 
+    background-image: url(../img/mobile/oneday/morning/mobile_leftpine.png);
+}
+
+#morning .rightPine {
+    width: 77px;
+    height: 149px;
+
+    background-image: url(../img/mobile/oneday/morning/mobile_rightpine.png);
+
+    top: 220px;
+}
+
+#kitchen {
+    height: 400px;
+    background-image: url(../img/mobile/kitchen/mobile_kitchen_bg.png);
+}
+
+#kitchen .leftPan {
+    width: 52px;
+    height: 78px;
+    background-image: url(../img/mobile/kitchen/mobile_pan.png);
+}
+
+#kitchen .rightPot {
+    width: 73px;
+    height: 38px;
+    background-image: url(../img/mobile/kitchen/mobile_pot.png);
+}
+
+#kitchen .steamWrap {
+    width: 300px;
+    height: 300px;
+
+    margin-left: -150px;
+    top: 0;
+
+    /* background-color: yellow; */
+}
+
+#kitchen .steamWrap .steam {
+    width: 222px;
+    height: 184px;
+    background-image: url(../img/mobile/kitchen/mobile_steam.png);
+
+    left: 50%;
+    top: 100px;
+    margin: 0 0 0 -140px;
+}
+
+#kitchen .steamWrap .bubble1 {
+    display: none;
+}
 
 
+#kitchen .kitchenBubble {
+    width: 143px;
+    left: 50%;
+
+    margin: -320px 0 0 -70px;
+}
 
 
-#night1 .starWrap .star1,
-#night1 .starWrap .star2,
-#night1 .starWrap .star3
+#color1 {
+    height: 500px;
+
+    background-image: url(../img/mobile/color/color1/mobile_color1_bg.png);
+}
+
+#color1 .penguin {
+    display: none;
+}
+
+#color1 .color1Bubble {
+position: relative;
+    float:initial;
+    width: 166px;
+    height: 56px;
+
+left: 50%;
+    margin: 100px 0 0 -83px;
+
+}
+
+#color2 {
+    height: 400px;
+    background-image: url(../img/mobile/color/color2/mobile_color2_bg.png);
+}
+
+#color2 .horse {
+    display: none;
+}
+
+#color2 .color2Wrap {
+    width: 320px;
+    /* height: 200px; */
+
+    top: 0;
+    left: 50%;
+    margin-left: -160px;
+
+    text-align: center;
+}
+
+#color2 .color2Wrap .color2Bubble {
+    width: 128px;
+
+}
+
+#color2 .color2Wrap .btn-wrap{
+    width: 300px;
+    height: 60px;
+    margin-bottom: 0;
+}
+
+#color2 .color2Wrap .btn-wrap .red,
+#color2 .color2Wrap .btn-wrap .yellow,
+#color2 .color2Wrap .btn-wrap .blue {
+    width: 40px;
+    height: 56px;
+
+}
+
+#color2 .color2Wrap .btn-wrap .red{
+    background-image: url(../img/mobile/color/color2/btn/mobile_btn_red.png);
+}
+
+#color2 .color2Wrap .btn-wrap .yellow{
+    background-image: url(../img/mobile/color/color2/btn/mobile_btn_yellow.png);
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+#color2 .color2Wrap .btn-wrap .blue{
+    background-image: url(../img/mobile/color/color2/btn/mobile_btn_blue.png);
+}
+
+#color2 .color2Wrap .color2Comment {
+    color:#8e7577;
+    line-height: 15px;
+    font-size: 10px;
+
+}
 
 
+#color3 {
+    height: 430px;
+    background-image: url(../img/mobile/color/color3/mobile_color3_bg.png);
+}
 
+#color3 .flag {
+    width: 320px;
+    height: 46px;
+    background-image: url(../img/mobile/color/color3/mobile_flag.png);
+
+    margin-left: -160px;
+}
+
+#color3 .book {
+    width: 107px;
+    height: 46px;
+    background-image: url(../img/mobile/color/color3/mobile_book.png);
+
+    margin-right: 20px;
+}
+
+#color3 .logo {
+    width: 225px;
+
+    margin-top: 100px;
+    margin-left: -112.5px;
+
+}
+
+#color3 .dice{
+    width: 62px;
+    height: 52px;
+    background-image: url(../img/mobile/color/color3/mobile_dice.png);
+}
 
 
 
