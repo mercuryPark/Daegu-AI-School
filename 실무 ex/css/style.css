@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#one, #two, #three{
+    width: 100%;
+    height: 800px;
+}
+
+#one {
+    background-color: aqua;
+}
+
+#two{
+    background-color: blue;
+}
+
+#three {
+    background-color: cadetblue;
+}
+/* 
+.text-box{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+h1{
+    background-color: pink;
+
+}
+
+h2{
+    background-color: gray;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+.m-b-15 {
+    margin-bottom: 15px;
+}
+.m-b-20 {
+    margin-bottom: 20px;
+}
+.m-b-100 {
+    margin-bottom: 100px;
+}
+
+.p-t-50{
+    
+}
+.p-r-10{
+
+}
+
+
+
+
+
