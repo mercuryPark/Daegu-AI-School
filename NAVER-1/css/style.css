@@ -123,7 +123,7 @@ main #main_left{
 main #main_right {
     float: right;
     width: 350px;
-    height: 2000px;
+    /* height: 2000px; */
     /* background-color: yellow; */
 }
 
@@ -335,4 +335,231 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info h4{
 main #blog_wrap .blog_media_wrap ul .blog_media_info span{
     font-size: 12px;
 }
+
+
+#main_right #account {
+    width: 100%;
+    border: solid 1px #dae1e6;
+    padding: 16px 16px 12px 16px;
+    margin-bottom: 12px;
+}
+
+#main_right #account p{
+    font-size: 12px;
+    padding-left: 3px;
+    margin-bottom: 11px;
+
+}
+
+#main_right #account a{
+    display: block;
+    width: 100%;
+
+    padding: 15px 0;
+    margin-bottom: 14px;
+
+    text-align: center;
+    font-size: 13px;
+    background-color: #19ce60;
+    border-radius: 13px;
+    color: #ffffff;
+    font-weight: 700;
+  
+}
+
+#main_right .account_sub {
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	
+
+padding: 0 8px;
+
+}
+
+#main_right .account_sub span{
+    font-size: 12px;
+}
+
+#main_right #banner {
+    width: 348px;
+    height: 198px;
+    background-color: #000000;
+
+    margin-bottom: 20px;
+}
+
+#main_right #shop_wrap .shop_title {
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	
+    padding: 12px 0;
+
+
+}
+#main_right #shop_wrap .shop_title h3,
+#main_right #shop_wrap .shop_title h4{
+    font-size: 13px;
+}
+
+#main_right #shop_wrap .shop_title .right {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	
+
+}
+
+#main_right #shop_wrap .shop_title h4 {
+    margin-left: 15px;
+}
+
+#main_right #shop_wrap .shop_content {
+    border:solid 1px #e4e8eb;
+    padding: 0 0 22px;
+}
+
+#main_right #shop_wrap .shop_content .shop_goods {
+    padding:55px 0 8px;
+}
+
+
+#main_right #shop_wrap .shop_content .commerce-lists{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+    padding: 12px 4px ;
+    background-color: #f7f9fa;
+    border-bottom: solid 1px #dae1e6;
+}
+
+#main_right #shop_wrap .shop_content .commerce-lists li{
+
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+   
+}
+
+#main_right #shop_wrap .shop_content .commerce-lists li:nth-child(1),
+#main_right #shop_wrap .shop_content .commerce-lists li:nth-child(9){
+    margin-left: 0;
+}
+
+#main_right #shop_wrap .product-lists {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+    padding: 5px;
+	
+}
+
+#main_right #shop_wrap .product-lists li{
+    margin-bottom: 10px;
+}
+
+#main_right #shop_wrap .product-lists .product-info{
+    text-align: center;
+}
+
+#main_right #shop_wrap .product-lists h3,
+#main_right #shop_wrap .product-lists span{
+    font-size: 12px;
+}
+
+#main-footer {
+    background-color: #fafbfc;
+    border-top: solid 1px #e4e8eb;
+    padding-bottom: 92px;
+}
+#main-footer .news_lists {
+    display: flex;
+
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+    padding: 24px 0;
+
+}
+
+#main-footer .news_lists li {
+ display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+#main-footer .news_lists li img{
+    margin-right: 15px;
+}
+
+#main-footer .news_lists li img .news_info{
+width: 172px;
+
+}
+
+#main-footer .news_lists li  .news_info span,
+#main-footer .news_lists li  .news_info h3,
+#main-footer .news_lists li  .news_info p{
+    font-size: 13px;
+
+}
+
+#main-footer .news_lists li  .news_info span {
+    color:#58c464;
+}
+
+#main-footer .corp_lists {
+    padding-top: 25px;
+    border-top: solid 1px #e4e8ed
+}
+#main-footer .corp_lists li{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+#main-footer .corp_lists li:first-child:before {
+    content: initial;
+}
+
+#main-footer .corp_lists li:before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    margin: 0 8px;
+    background-color: #e4e8eb;
+
+    vertical-align: -1px;
+}
+
+#main-footer .corp_lists li a{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
