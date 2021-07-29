@@ -3085,3 +3085,348 @@ font-size: 12px;
 color: #959595;
 padding-left: 13px;
 }
+
+
+/* 뉴스 메인 */
+
+.news-container{
+    width: 1080px;
+    margin: 0 auto;
+
+}
+
+.news-flex-between{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.news-flex-start {
+    display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.news-flex-end {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+#news-header {
+    background-color: #3f63bf;
+}
+#news-header .news-header-left{
+padding-top: 17px;
+padding-bottom: 17px;
+}
+
+#news-header .news-header-left ul li{
+font-size: 15px;
+
+}
+#news-header .news-header-left ul li.on{
+    font-size: 20px;
+    
+}
+
+#news-header .news-header-left ul li a{
+    color: #ffffff;
+    
+}
+
+#news-header .news-header-left ul li a::before {
+    display: inline-block;
+    content:'';
+    width: 1px;
+    height: 15px;
+    background-color: #000;
+    opacity: 0.2;
+
+    margin:  0 10px;
+    vertical-align: -1px;;
+}
+
+#news-header .news-header-left ul li:first-child a:before{
+    content:none;
+}
+
+#news-header .news-header-right .btn-login {
+    display: block;
+width: 55px;
+height: 25px;
+border:solid 1px #000000;
+
+line-height: 25px;
+text-align: center;
+
+color: #ffffff;
+
+font-size: 12px;
+
+margin-right: 20px;
+}
+
+#news-header .news-header-right .btn-menu{
+    width: 55px;
+    height: 55px;
+    border-left: solid 1px #000000;
+    border-right: solid 1px #000000;
+    background-color: #3f63bf;
+}
+.sub-nav{
+    background-color: #ffffff;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.sub-nav ul{
+
+}
+
+.sub-nav ul li{
+    width: auto;
+    height: 46px;
+    margin-right: 16px;
+}
+
+.sub-nav ul li a{
+    display:block;
+    width: 100%;
+    height: 100%;
+    border-bottom: solid 2px transparent;
+
+    font-weight: bold;
+    line-height: 46px;
+    
+}
+
+.sub-nav ul li a.on{
+    border-bottom: solid 2px #3f63bf;
+    color: #3f63bf;
+}
+
+#news-header .sub-nav .news-search-wrap{
+    width: 280px;
+    height: 30px;
+    border:solid 1px #e1e1e1;
+    background-color: #fafafa;
+
+    
+}
+#news-header .sub-nav .news-search-wrap input{
+    width: calc(100% - 30px);
+    height: 100%;
+    border: none;
+    
+    font-size: 12px;
+    color: #888888;
+    padding: 3px 9px;
+    
+}
+
+#news-header .sub-nav .news-search-wrap input:focus{
+    outline:none;
+}
+#news-header .sub-nav .news-search-wrap .btn-search{
+    width: 30px;
+    height: 100%;
+    background-color: blue;
+}
+
+
+
+#news-headline{
+    padding-top: 20px ;
+    
+}
+
+#news-headline .news-container{
+    border-bottom: solid 1px #000000;
+    padding-bottom: 12px;
+}
+
+#news-headline .news-headline-menu-wrap{
+    margin-bottom: 15px;
+
+}
+
+#news-headline .news-headline-menu-wrap .main-lists{
+    
+}
+
+
+#news-headline .news-headline-menu-wrap .main-lists li{
+    margin-right: 20px;
+    font-size: 15px;
+    
+}
+#news-headline .news-headline-menu-wrap .main-lists li a{
+    
+}
+
+#news-headline .news-headline-menu-wrap .sub-lists {
+    
+}
+
+#news-headline .news-headline-menu-wrap .sub-lists li{
+    font-size: 12px;
+
+}
+#news-headline .news-headline-menu-wrap .sub-lists li a{
+    
+}
+
+#news-headline .news-headline-menu-wrap .sub-lists li a::before{
+    content:'';
+    display: inline-block;
+
+    width: 1px;
+    height: 12px;
+    background-color: #e0e0e0;
+    margin:0 5px;
+    vertical-align: -1px;
+    
+}
+#news-headline .news-headline-menu-wrap .sub-lists li:first-child a::before{
+    content:none;
+} 
+
+#news-headline .news-headline-lists {
+margin-bottom: 12px;
+}
+
+#news-headline .news-headline-lists li{
+    width: 255px;
+    height: 178px;
+    border: solid 1px #ccc;
+
+}
+#news-headline .news-headline-lists li a{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+#news-headline .news-headline-lists li a article{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#news-headline .news-headline-lists li a article h3{
+    width: 100%;
+    height: 44px;
+    /* background-color: yellow; */
+    line-height: 44px;
+
+    text-align: center;
+}
+#news-headline .news-headline-lists li a article .image-wrap{
+    position: relative;
+    width: 100%;
+    height: 132px;
+    background-color: pink;
+}
+#news-headline .news-headline-lists li a article .image-wrap img{
+    position: absolute;
+width: 100%;
+height: 100%;
+}
+#news-headline .news-headline-lists li a article .image-wrap .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+#news-headline .news-headline-lists li a article .image-wrap .overlay .headline-info{
+    position: absolute;
+    width: 100%;
+    /* background-color: pink; */
+    padding: 15px 20px;
+
+    left: 0;
+    bottom: 0;
+
+    color: #ffffff;
+}
+
+#news-headline .news-headline-lists .headline-info i{
+    display: block;
+width: 26px;
+height: 26px;
+background-color: #000;
+border-radius: 50%;
+
+margin-right: 10px;
+}
+#news-headline .news-headline-lists .headline-info div{
+    width: calc(100% - 38px);
+}
+
+#news-headline .news-headline-lists .headline-info span{
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+#news-headline .news-headline-lists .headline-info p{
+    display: inline;
+    font-size: 12px;
+}
+
+#news-headline .news-headline-arrows {
+
+
+}
+#news-headline .news-headline-arrows .btn-wrap{
+    margin-right: 15px;
+}
+
+#news-headline .news-headline-arrows .btn{
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: solid 1px #dcdddc;
+}
+
+#news-headline .news-headline-arrows .btn.btn-prev{
+    background-color: yellow;
+    border-right: none;
+    
+}
+#news-headline .news-headline-arrows .btn.btn-next{
+    background-color: pink;
+    
+}
+#news-headline .news-headline-arrows .btn.btn-up{
+    background-color: black;
+}
+
+
+#news-main .news-container{
+    overflow: hidden
+}
+#news-main .news-right{
+    float:right;
+    width: 327px;
+    border-left: solid 1px #dfdfdf;
+    padding: 25px 0 40px 26px;
+    background-color: green;
+}
+
+#news-main .news-left{ 
+    float: left;
+    width: 750px;
+background-color: black;
+
+}
+
+
