@@ -229,15 +229,15 @@
 // console.log(10 + undefined); //NaN (Not a Number) 숫자가 아니다. 
 
 //참조 타입
-//함수 (function)
+// 함수 (function)
 
 // console.log(10 + 10);
 // console.log(20 + 30);
 // console.log(5 + 20);
 
-//임의 숫자 두 개를 전달받아서 덧셈을 하는 기능을 만들고 싶다.
+// 임의 숫자 두 개를 전달받아서 덧셈을 하는 기능을 만들고 싶다.
 
-//함수 선언
+// 함수 선언
 // function sum(){
    
 //     // console.log("Hello!")
@@ -250,7 +250,7 @@
 
 
 // parameter (매개변수), Argument (인수)
-//num1, num2 가 바로 매개변수다
+// num1, num2 가 바로 매개변수다
 // function sum(num1, num2){
 
 //     console.log(num1+num2);
@@ -274,7 +274,7 @@
 
 
 //     var result = width * height;
-    // console.log(result);
+//     console.log(result);
 // }
 
 // area(10);
@@ -353,7 +353,7 @@
 // console.log(score[1][2]);
 
 // 객체 (Object) - 여러개의 데이터를 하나의 변수안에 전부 다 넣고싶을때 사용되는 것
-//이름, 나이, 스킬, 성별
+// 이름, 나이, 스킬, 성별
 // key - value = property
 
 // var student = {
@@ -405,7 +405,7 @@
 // 원시 타입과 참조 타입 차이점
 // 원시 타입은 원본을 수정하든 복사본을 수정하든 서로의 데이터 타입에는 영향을 끼치지 않는다.
 
-//원시타입
+// 원시타입
 // var str1 = "Hello World";
 // var str2 = str1;
 
@@ -415,7 +415,7 @@
 // console.log(str1);
 // console.log (str2);
 
-//참조 타입
+// 참조 타입
 // var obj1 = {name: "HoYeon"};
 // var obj2 = obj1;
 
@@ -465,7 +465,7 @@
 
 // console.log("Main");
 
-//main.js 안에서 만들어 놓은 main function 을 다른 파일인 custom.js 에서 실행을 할 수 있다.
+// main.js 안에서 만들어 놓은 main function 을 다른 파일인 custom.js 에서 실행을 할 수 있다.
 // 단 순서를 중요시 해야한다. 순서에 맞춰서 작성을 해야한다.
 
 

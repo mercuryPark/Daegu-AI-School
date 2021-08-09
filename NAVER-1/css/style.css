@@ -5049,6 +5049,9 @@ display: flex;
 .game-p-30 {
     padding: 30px;
 }
+.game-m-t-20{
+    margin-top: 20px;
+}
 .font-17{
     font-size: 17px;
 }
@@ -5058,6 +5061,7 @@ display: flex;
 .font-400{
     font-weight: 400;
 }
+
 
 #game-body{
     background-color: #f8f9fd;
@@ -5228,8 +5232,9 @@ padding: 80px 0;
 
 #game-main .left {
 width: 900px;
-height: 2000px;
-background-color: yellow;
+padding-bottom: 200px;
+/* height: 8000px;
+background-color: yellow; */
 }
 #game-main .right {
     width: 358px;
@@ -5310,6 +5315,49 @@ height: 100%;
     color: #7776ff;
 
 }
+
+.game-section .section-body-wrap{
+    margin-top: 18px;
+
+}
+.game-section .section-body-wrap .image-txt-wrap{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.game-section .section-body-wrap .image-txt{
+    width: 407.5px;
+    
+    }
+    
+    .game-section .section-body-wrap img{
+    width: 180px;
+    height: 100px;
+    border-radius: 8px;
+    border: solid 1px rgba(0, 0, 0, 0.06);
+    
+    margin-right: 15px;
+    }
+    
+    .game-section .section-body-wrap .txt{
+        width: 212px;
+    }
+    
+    .game-section .section-body-wrap .title{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    
+    margin-bottom: 3px;
+    }
+    
+    .game-section .section-body-wrap .source{
+    font-size: 13px;
+    color: #999;
+    }
+
+
 .game-section .btn-circle{
     position: absolute;
     width: 55px;
@@ -5407,30 +5455,206 @@ color: #7776ff;
 #game-section-1 .section-btn-wrap a:last-child{
     margin-left: 14px;
 }
+#game-section-2{
+
+}
+
+#game-section-2 .section-title-wrap .more{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+
+
+#game-section-2 .section-body-wrap ul{
+margin-top: 25px;
+}
+
+#game-section-2 .section-body-wrap ul li {
+margin-bottom: 11px;
+}
+#game-section-2 .section-body-wrap ul li:last-child{
+    margin-bottom: 0;
+}
+
+#game-section-2 .section-body-wrap a {
+
+}
+#game-section-2 .section-body-wrap ul .title{
+width: 776px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+#game-section-2 .section-body-wrap ul .source{
+
+}
 
 
 
 
 
 
+#game-section-3 .section-body-wrap .image-txt .category{
+display: block;
+
+    font-size: 13px;
+    color: #7776ff;
+    margin-bottom: 3px;
+}
+ 
+#game-section-4 ol{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#game-section-4 li{
+
+}
+
+#game-section-4 a{
+display: block;
+}
+
+#game-section-4 .image-wrap{
+position: relative;
+overflow: hidden;
+    width: 263px;
+height: 148px;
+
+border-radius: 8px;
+}
+
+#game-section-4 .image-wrap img{
+position: absolute;
+width: 100%;
+height: 100%;
+}
+#game-section-4 .image-wrap .icon-play{
+position: absolute;
+width: 25px;
+height: 25px;
+background-color: grey;
+
+left: 10px;
+bottom: 12px;
+}
+
+#game-section-4 .image-wrap .time{
+position: absolute;
+background-color: rgba(0, 0, 0, .5);
+
+padding: 2px 6px;
+border-radius: 6px;
+
+color: #ffffff;
+font-size: 14px;
+
+right: 10px;
+bottom: 10px;
+}
+
+#game-section-4 .section-body-wrap .image-txt{
+    width: 100%;
+    margin-top: 10px;
 
 
+}
 
+#game-section-4 .image-txt h3{
+font-size: 15px;
 
+}
 
+#game-section-4 .image-txt .source,
+#game-section-4 .image-txt .count{
+font-size: 13px;
+color: #999;
+}
 
+#game-section-5 .section-title-wrap .info {
+    font-size: 13px;
+    color: #999999;
+}
 
+#game-section-5 .section-body-wrap .image-wrap{
+    position: relative;
+    width: 190px;
+    height: 120px;
 
+}
 
+#game-section-5 .section-body-wrap .image-wrap img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border:none;
+    margin-right: 0;
+}
 
+#game-section-5 .section-body-wrap .image-wrap .badge{
+    position:absolute;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #4e41db;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 8px;
 
+    top: -5px;
+    left: -5px;
+}
 
+#game-section-5 .section-body-wrap .image-wrap .badge.open{
+    background-color: red;
+}
 
+#game-section-5 .section-body-wrap .txt-wrap {
+margin-top: 12px;
+}
+#game-section-5 .section-body-wrap .txt-wrap h3{
+    font-size: 15px;
+    font-weight: 600;
 
+}
+#game-section-5 .section-body-wrap .txt-wrap p{
+    font-size: 13px;
+    font-weight: 500;
+}
+#game-section-5 .section-body-wrap .txt-wrap span{
+    font-size: 13px;
+    color: gray;
+}
 
+#game-section-6 .section-body-wrap img{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+}
 
+#game-section-6 .section-body-wrap .category{
+    font-size: 15px;
+}
 
+#game-section-6 .section-body-wrap .txt{
+    width: 300px;
+}
 
+#game-section-6 .section-body-wrap .title{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    font-size: 13px;
+
+    color: #666;
+}
 
 
 
