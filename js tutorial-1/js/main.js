@@ -470,8 +470,57 @@
 
 
 
+// 반복문
+// 고정값 : 일정한 규칙을 갖고 있을때 (2 * );
+// 일정한 규칙을 갖고 있는 가변값 : 1,2,3,4,5,6,7,8,9
 
-console.log(vvaRRo);
+// console.log(2 * 1);
+// console.log(2 * 2);
+// console.log(2 * 3);
+// console.log(2 * 4);
+// console.log(2 * 5);
+// console.log(2 * 6);
+// console.log(2 * 7);
+// console.log(2 * 8);
+// console.log(2 * 9);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
