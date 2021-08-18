@@ -6890,7 +6890,7 @@ background-color: yellow;
 #audio-main {
     background-color: #f6f8fa;
     width: 100%;
-    height: 2000px;
+    /* height: 2000px; */
 
     padding-top: 61px;
 
@@ -7178,7 +7178,7 @@ background-color: #ffffff;
 
 }
 #audio-book .audio-body ul{
-align-items: flex-start;
+/* align-items: flex-start; */
 }
 #audio-book .audio-body li{
 width: 120px;
@@ -7256,6 +7256,333 @@ width: 120px;
     margin-top: 6px;
     color: #959595;
 }
+
+#audio-intro {
+    
+}
+#audio-intro .audio-body ul{
+    
+}
+#audio-intro .audio-body li{
+    
+}
+#audio-intro .audio-body li a{
+    
+}
+#audio-intro .audio-body li img{
+    width: 152px;
+    height: 152px;
+    border-radius: 4px;
+}
+#audio-intro .audio-body li h3{
+    margin-top: 12px;
+    font-size: 13px;
+}
+#audio-intro .audio-body li .source{
+    margin-top: 4px;
+    font-size: 12px;
+    color: #959595;
+}
+
+
+
+#audio-discovery {
+    
+}
+#audio-discovery .audio-header{
+    position: relative;
+
+}
+#audio-discovery .audio-header h2{
+    font-size: 17px;
+    line-height: 24px;
+}
+#audio-discovery .audio-header p{
+    margin-top: 7px;
+    font-size: 13px;
+    color: #888;
+}
+#audio-discovery .audio-header .link-setting{
+    display: block;
+    position: absolute;
+
+    padding: 10px 18px 8px;
+    background-color: #ffffff;
+    font-size: 13px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 2px 10px 0 rgb(80 85 91 / 7%);
+
+    color: #157efb;
+    right: 0;
+    top:6px;
+}
+#audio-discovery .audio-body ul{
+    
+}
+#audio-discovery .audio-body li{
+    margin-bottom: 40px;
+}
+
+#audio-discovery .audio-body li a{
+    
+}
+#audio-discovery .audio-body li img{
+    width: 152px;
+    height: 152px;
+    border-radius: 4px;
+}
+#audio-discovery .audio-body li h3{
+    margin-top: 12px;
+    font-size: 13px;
+}
+#audio-discovery .audio-body li .source{
+    margin-top: 4px;
+    font-size: 12px;
+    color: #959595;
+}
+
+#audio-discovery .audio-body .btn-more{
+font-size: 14px;
+color: #222;
+
+padding: 12px 21px 12px 21px;
+border: solid 1px rgba(0, 0, 0, 0.1);
+border-radius: 24px;
+background-color: #ffffff;
+box-shadow: 0 2px 10px 0 rgb(80 85 91 / 7%);
+
+font-weight: 500;
+
+margin: 0 auto;
+display: block;
+}
+#audio-discovery .audio-body .btn-more .color-blue{
+    color: #157efb;
+}
+
+#audio-discovery .audio-body .btn-more .pages{
+    color: #959595;
+}
+
+#audio-create {
+
+}
+#audio-create .audio-body{
+    
+}
+#audio-create .audio-body li{
+    padding: 22px 4px;
+    border-top: solid 1px #efefef;
+}
+#audio-create .audio-body li:last-child{
+    border-bottom: solid 1px #efefef;
+}
+#audio-create .audio-body li a{
+    
+}
+#audio-create .audio-body li .txt-wrap{
+    width: 225px;
+}
+#audio-create .audio-body li .txt-wrap h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+#audio-create .audio-body li .txt-wrap p{
+    font-size: 14px;
+    margin-top: 6px;
+    letter-spacing: -.8px;
+}
+#audio-create .audio-body li .txt-wrap p.color-blue{
+    color:#2db8e8;
+}
+#audio-create .audio-body li .txt-wrap p.color-purple{
+    color:#8560f7;
+}
+#audio-create .audio-body li .list-bg{
+    width: 80px;
+    height: 64px;
+}
+#audio-create .audio-body li .list-bg.list-bg-1{
+    background-color: yellow;
+}
+#audio-create .audio-body li .list-bg.list-bg-2{
+    background-color: purple;
+}
+
+#audio-footer{
+    background-color: #eaecef;
+    padding: 48px 0 164px;
+}
+#audio-footer h1{
+font-size: 25px;
+
+}
+#audio-footer h1 a{
+    color:#959595;
+}
+#audio-footer .copyright-wrap{
+margin-top: 37px;
+letter-spacing: -.5px;
+font-size: 13px;
+}
+#audio-footer .copyright-wrap p{
+    letter-spacing: -.5px;
+font-size: 13px;
+line-height: 19px;
+color:#959595;
+}
+#audio-footer .footer-nav{
+    margin-top:47px;
+}
+#audio-footer .footer-nav ul{
+    overflow: hidden;
+}
+#audio-footer .footer-nav li{
+    
+}
+#audio-footer .footer-nav li a{
+font-size: 13px;
+color: #959595;
+
+}
+#audio-footer .footer-nav li a:after{
+    display: inline-block;
+    content:'';
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #959595;
+    
+    margin:9px 7px 0;
+    vertical-align: top;
+    
+}
+#audio-footer .footer-nav li:last-child a:after{
+    content: none;
+}
+#audio-footer .footer-copyright-link{
+    display: block;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #959595;
+}
+#audio-footer .footer-copyright-link .symbol{
+    
+}
+
+
+/* 오디오의 카테고리 */
+
+#audio-main.audio-sub-main{
+    background-color: #ffffff;
+}
+
+.audio-category{
+padding-top: 71px;
+}
+.audio-category .title-wrap{
+    padding-bottom: 20px;
+    border-bottom: solid 2px #ececec    ;
+}
+.audio-category .title-wrap h2{
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.audio-category .title-wrap p{
+    margin-top:20px;
+    font-size: 14px;
+    color: #959595;
+
+}
+.audio-category .category-lists{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+margin-top: 22px;
+
+
+}
+.audio-category .category-lists .category-list{
+    width: 162px;
+    height: 164px;
+
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+.audio-category .category-lists .category-list:nth-child(6n){
+    margin-right: 0;
+}
+.audio-category .category-lists .category-list:nth-child(odd) a{
+    /* background-color: cornflowerblue; */
+}
+.audio-category .category-lists .category-list:nth-child(even) a{
+    /* background-color: cyan; */
+}
+.audio-category .category-lists .category-list a{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgb(230, 125, 127);
+    border-radius: 6px;
+    padding: 14px;
+    overflow: hidden;
+}
+.audio-category .category-lists .category-list a h3{
+    font-size: 19px;
+    line-height: 1.3;
+    color: #ffffff;
+
+}
+.audio-category .category-lists .category-list a p{
+    position: absolute;
+
+    width: 80px;
+    font-size: 13px; 
+    
+    color: #fefefe;
+
+    bottom: 14px;
+
+
+}
+.audio-category .category-lists .category-list a .thumbnail{
+    position: absolute;
+    width: 78px;
+    height: 78px;
+
+    right:-13px;
+    bottom: 0;
+
+    transform: rotate(25deg);
+}
+
+#audio-category-book {
+    padding-bottom: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
