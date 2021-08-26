@@ -170,20 +170,127 @@
 
 // 함수는 서로의 스코프에 접근할 수 없다!!!!!!
 
-function a() {
-    var apple = "사과";
-}
+// function a() {
+//     var apple = "사과";
+// }
 
-function b() {
-    a(); // var apple = "사과 "이렇게 들어가지않는다. 
-    console.log(apple);
-}
+// function b() {
+//     a(); // var apple = "사과 "이렇게 들어가지않는다. 
+//     console.log(apple);
+// }
 
-b();
+// b();
+
+// 스코프 체인 - 안쪽에서부터 바깥쪽을 탐색하는 것 (바깥쪽에서 안쪽을 탐색하는건 불가능하다.)
+
+// var a = 10;
+
+// function func1(){
+//     var b = 20;
+
+//     function func2(){
+//         var c = 30;
+
+//         console.log(a + b * c);
+//     }
+//     // 
+
+//     func2();
+// }
+
+// func1();
+// console.log(b);
 
 
 
 
+// 이해하기 - 가장먼저 func1()은 console.log(name1)을 의미하는것이 아닌 전역변수 Inkweon을 의미한다.
+
+// 그리고 func2()에서의 name1 은 지역변수로 뒤따라오는 func1()은 Inkweon 을 의미한다. 
+
+// 결국 func2()는 전역변수 Inkweon이 된다.
+
+
+
+
+
+// function func1() {
+//     var name1 = "InKweon";
+
+//       console.log(name1);
+// }
+
+
+// function func2() {
+//     var name1 = "Jun";
+
+//     func1();
+// }
+
+// func2();
+
+
+// 호이스팅
+// 변수 호이스팅 - 오로지 변수를 선언 했을때만 발생하는 것 끌어당김
+
+// console.log(a);
+
+// // var a;
+// // a = "나는 a다."
+
+// var a = "나는 A다.";
+
+// console.log(a);
+
+
+
+// 함수 호이스팅 - 함수가 위쪽으로 끌어올려진상태 
+// 주의점 - 함수를 만들때 var func
+
+// func1()
+
+// function func1(){
+//     console.log("Func1 함수다.")
+// }
+
+// func1();
+
+// 주의점 - 이런 양식일땐 호이스팅이 안된다.
+// var func2 = function() {
+//     console.log ("Func2 함수다");
+// }
+
+// func2();
+
+// Math 
+
+// console.log(Math);
+
+
+// var num1 = Math.abs(-3) - 절대값;
+// console.log(num1);
+
+// var num2 = Math.ceil(0.3) - 올림처리;
+// console.log(num2);
+
+
+// var num3 = Math.floor(10.9) - 내림처리;
+// console.log(num2);
+
+// var num4 = Math.random(); - 랜덤
+// console.log(num4);
+
+
+// parseInt(), parseFloat()
+// 문자열을 숫자형으로 변경을 할때 사용되는 메세드다.
+var str1 = "20.6"; 
+var str2 = "3.14";
+
+var num1 = parseInt(str1);
+// var num2 = parseFloat(str2);
+
+console.log(num1);
+console.log(str2);
 
 
 
