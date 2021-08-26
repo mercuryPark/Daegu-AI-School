@@ -95,73 +95,91 @@
 
 // 전역 변수(지구 - 모든 국가에 적용이 되는 법), 지역 변수(국가 - 특정 국가에만 적용이 되는 법)
 
-var globalV = "전역변수";
+// var globalV = "전역변수";
 
-function func(){
-    var localV = "지역변수";
+// function func(){
+//     var localV = "지역변수";
 
-    console.log(globalV);
-    console.log(localV);
- }
+//     console.log(globalV);
+//     console.log(localV);
+//  }
 
-//  func();
+// //  func();
 
-console.log(globalV);
-console.log(localV);
+// console.log(globalV);
+// console.log(localV);
 
+// 새로운 변수를 만들땐 var를 추가해줘야한다.***********
 
+// var gv = "전역변수";
 
+// function func() {
+//     gv = "지역변수";
+//     console.log(gv);
+// }
 
+// func();
 
-
-
-
-
-
-
-
-
-
-
+// console.log(gv);
 
 
 
+// var gv = "전역변수";
 
+// if(true) {
+//     var lv = "지역변수????"
 
-
-
-
-
-
-
+//     console.log(gv);
+//     console.log(lv);
+// }
 
 
 
 
 
+// var gv = "전역변수";
+// var aaa= "aaa";
+
+// function a(){
+//     console.log("a");
+// }
 
 
+// 전역스코프 - 모든영역에 영향을 끼칠수 있는 스코프
+// var gv = "전역변수";
 
+// function func() {
+//     console.log(gv);
+// }
 
+// func();
 
+// console.log(gv);
 
+// 지역스코프 - 함수안에서만 영향력을 발휘할수있는 스코프
+// 변수가 영향력을 발휘할수있는 범위
 
+// function func() {
+//     var lv = "지역변수";
+//     console.log(lv);
+// }
 
+// func();
 
+// console.log(lv);
 
+// 함수는 서로의 스코프에 접근할 수 없다!!!!!!
 
+function a() {
+    var apple = "사과";
+}
 
+function b() {
+    a(); // var apple = "사과 "이렇게 들어가지않는다. 
+    console.log(apple);
+}
 
-
-
-
-
-
-
-
-
-
-
+b();
 
 
 
