@@ -283,21 +283,305 @@
 
 // parseInt(), parseFloat()
 // 문자열을 숫자형으로 변경을 할때 사용되는 메세드다.
-var str1 = "20.6"; 
-var str2 = "3.14";
+// var str1 = "20.6"; 
+// var str2 = "3.14";
 
-var num1 = parseInt(str1);
-// var num2 = parseFloat(str2);
+// var num1 = parseInt(str1);
+// // var num2 = parseFloat(str2);
 
-console.log(num1);
-console.log(str2);
+// console.log(num1);
+// console.log(str2);
+
+// 반복문
+// 고정값 : console.log(2 * );
+// 일정한 규칙을 갖고 있는 가변값 : 1, 2,3, 4, 5, 6, 7, 8, 9
+
+// console.log(2 * 1);
+// console.log(2 * 2);
+// console.log(2 * 3);
+// console.log(2 * 4);
+// console.log(2 * 5);
+// console.log(2 * 6);
+// console.log(2 * 7);
+// console.log(2 * 8);
+// console.log(2 * 9);
+
+
+// while
+
+// var num = 2;   // 2
+
+// while (num < 10) {
+//     console.log(2 * num);
+//     num++;
+   
+// }
+
+// console.log("반복문 종료");
+
+
+// do ~ while 
+// var i =12;
+
+// do{
+//     console.log(i);
+//     i++;
+// }
+//     while (i < 10);
+
+// 고정값
+// 일정한 규칙을 갖고 있는 가변값
+
+
+
+
+// for
+// 가변값의 1.시작 , 2.조건 , 3.규칙의 순서를 지켜가며 사용해야한다.
+
+// var i;
+
+// for(i = 1; i < 10; i++) {
+//     console.log(2 * i);
+// }
+
+// 중첩 반복문
+// 중첩 for 
+
+// 2단 ~ 9단 
+// 바깥족 반복문 2를 기준으로 안쪽 반복문이 10미만의 조건을 출력했을때
+// 다시 바깥족 반복문이 조건에 맞게 1씩 증가한다.
+// 안쪽 반복문이 끝날때 바깥쪽 반복문이 움직인다 - 반복 -
+// for(var i = 2; i < 10; i++) {
+    
+//     for(var j = 1; j < 10; j++){
+//         console.log(i * j);
+//     }
+// }
+
+// break, continue
+
+// for (var i = 1; i < 10; i++){
+//     if(i === 5){
+//         continue;
+//     }
+
+//     console.log(2 * i);
+// }
+ 
+// var arr = ['바나나', '사과', '수박'];
+// console.log(arr.length);
+
+// 고정값 : console.log(arr[]);
+// 가변값 : 0, 1, 2
+// console.log(arr[0]);
+
+// console.log(arr[1]);
+
+// console.log(arr[2]);
+
+// 데이터의 갯수를 알게하는것 .length
+
+// for (var i = 0; i < arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+// for ~ in 
+// arr 배열안에 있는 값을 순차적으로 출력하고있다.
+// var arr1 = "바나나";
+
+// for (var i in arr1) {
+
+//     console.log(i);
+//     console.log(arr1[i]);
+// }
 
 
 
 
 
+//element - 데이터 , index - 좌표
+
+// arr.forEach(function(element, index) {
+
+//     console.log(element);
+//     console.log(index);
+
+// })
 
 
+// forEach 와의 차이점 - return 사용가능
+// arr.map(function(element, index){
+//     console.log(element);
+//     console.log(index);
+// })
+
+// var result = arr.map(function(a, b){
+
+//     return b + " " + "10";
+
+// });
+
+// console.log(result);
+
+
+
+// var student = {
+//     name: "Kim",
+//     age: 20,
+//     skills: ["자바스크립트", "HTML", "CSS"],
+
+//     sum: function(num1, num2) {
+//         console.log(num1 + num2);
+//     }
+// }
+
+// // for ~ in 
+// // student.name 
+// // student['name'] 
+
+// for (var prop in student) {
+
+//     console.log(prop);
+//     console.log(student[prop])
+
+// }
+
+
+
+// 배열 : forEach(), map(), length
+
+
+
+// 문자열 String
+// length;
+// trim() - 문자의 공백을 제외한 문자수를 알수있음
+// var txtLength = " Hello World ";
+
+// console.log(txtLength.length);
+// console.log(txtLength);
+// console.log(txtLength.trim().length);
+
+// var result = prompt("이름을 입력해 주세요.");
+
+// console.log(result);
+// console.log(result.trim().trim().length);
+
+
+
+
+//charAt(n) - n에 기입된 숫자위치의 문자를 찾아내서 출력한다.
+
+// var str = "Nice to meet you";
+
+// console.log(str.charAt(str.length - 3));
+
+
+// Slice - slice(시작, 끝(미만))까지의 값
+// console.log(str.slice(0, 6));
+
+// Split - 기존의 문자 데이터타입이 배열데이터타입으로 바뀐다
+// split() 괄호안에 있는 것을 기준으로 배열이 생성된다. 
+
+// console.log(str.split(' ')); 
+
+
+// replace('변경할 것', '변경될 것')
+// console.log(str.replace('Nice', 'Hello'));
+
+
+// indexOf('') - 내가 찾는 단어의 첫번째를 가리킨다.
+// 존재하지 않는 수라면 -1 을 출력 
+// 최초 먼저나오는 값으로 출력
+
+// console.log(str.indexOf('to'));
+
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+
+// var search = prompt("검색어를 입력해 주세요");
+
+// if(search.toLowerCase() === "apple") {
+//     console.log("사과 데이터를 출력한다.")
+// }else {
+//     console.log("false");
+
+// }
+
+
+// var arr = ["사과", "배", "수박"];
+
+// console.log(arr.length);
+
+// Push method 를 사용하면 뒤에서부터 삽입된다.
+// arr.push("포도");
+
+
+// unshift method 를 사용하면 앞 에서부터 삽입된다.
+// arr.unshift("포도", "토마토");
+
+
+// console.log(arr);
+
+//.pop() 뒤에서부터 데이터를 삭제하는 것
+
+// arr.pop();
+
+// console.log(arr);
+
+//.shift() 앞에서부터 데이터를 삭제한다
+
+// arr.shift();
+
+// console.log(arr)
+
+// join 을 이용하면 배열안에 있는 문자열을 일정한 규칙으로 합칠수있다.
+
+// var arr1 = ["사과", "배", "바나나"];
+// var arr2 = ["노트북", "마이크", "키보드"];
+// var str1 = arr1.join('포도포도');
+
+// // console.log(str1);
+
+// var merge = arr1.concat(arr2);
+
+// console.log(merge);
+
+
+
+
+var hex = document.getElementById('hex');
+var btn = document.getElementById('btn');
+
+// console.log(hex);
+// console.log(btn);
+
+btn.addEventListener('click', creatColor)
+
+
+
+
+function creatColor(){
+    var arr=[0, 1, 2, 3, 4, 5, 6 ,7, 8, 9, "a","b","c","d","e","f"];
+    var color = '#';
+
+    for(var i = 0; i < 6; i++){
+
+        var random = Math.floor(Math.random() * arr.length);
+
+        color += arr[random];
+    }
+   
+    document.body.style.backgroundColor = color;
+    hex.textContent = color;
+}
+
+
+// hex code 
+// #000fff;
+// 숫자는 : 0 ~ 9
+// 알파벳 : a ~ f
+// 6글자 숫자와 알파벳 조합
 
 
 

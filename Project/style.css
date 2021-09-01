@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 80px;
+
+}
+
+body, input, button {
+    background-color: white;
+}
+
+#wrapper {
+    overflow: hidden;
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0,0, 0.5);
+}
+
+header {
+    position: relative;
+
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+
+    padding: 15px;
+
+    top:0;
+    left:0;
+    z-index: 5;
+
+}
+
+header input {
+    float: left;
+    width: 100%;
+    height: 50px;
+
+
+    font-size: 15px;
+
+    text-indent: 18px;
+
+    padding: 0 60px 0 0;
+
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0;
+    outline: none;
+
+    color: #ffffff;
+
+
+
+
+}
+
+
+header input::-webkit-input-placeholder{
+    color: #ffffff;
+}
+
+header button {
+position: absolute;
+
+
+    width: 50px;
+    height: 50px;
+
+    top: 15px;
+    right: 15px;
+
+    z-index: 2;
+
+    border-radius: 50%;
+    background: #ffffff;
+
+    font-size: 20px;
+
+    cursor:pointer;
+
+}
+
+.container{
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+
+ul.list{
+    width: 100%;
+    float: left;
+
+}
+
+ul.list li{
+    position:relative;
+    width: 100%;
+    min-height: 50px;
+    background-color: #ffffff;
+
+    margin: 0 0 10px 0;
+    padding: 14px 100px 14px 14px;
+
+    font-size: 14px;
+
+    color: #444444;
+
+    line-height: 22px;
+}
+
+ul.list li .buttons {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+
+    top: 0;
+    right: 0;
+}
+
+ul.list li .buttons button{
+    float: left;
+    position: relative;
+
+    width: 50px;
+    height: 50px;
+
+    border: none;
+    cursor: pointer;
+
+}
+ul.list li .buttons button.remove{
+    background-color: #c0cecb;
+}
+
+ul.list li .buttons button.complete{
+    background-color: #1f2ee2;
+}
+
+ul.list#completed {
+    position: relative;
+
+    padding: 100px 0 0 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
