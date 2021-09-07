@@ -1,0 +1,61 @@
+
+.box {
+    position: relative;
+
+    
+    width: 500px;
+    padding: 50px;
+    border-radius: 5px;
+    border: solid 1px black;
+
+    margin: 100px auto;
+}
+#img {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    position: absolute;
+    background-color: #cccccc;
+
+    padding: 10px;
+    color: #ffffff;
+
+}
+
+#name,
+#txt{
+    margin-top: 30px;
+    margin-left: 75px;
+}
+
+
+.prevBtn {
+    top: 50%;
+    left: 0;
+    transform: translate(-120%, -50%);
+}
+.nextBtn {
+    top: 50%;
+    right: 0;
+    transform: translate(120%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
