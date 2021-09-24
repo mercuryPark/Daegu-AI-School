@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #000000;
+
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+
+    padding: 22px 100px;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.active {
+    background-color: #ffffff;
+
+}
+
+nav.active a {
+    color: #000000;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+
+.section-1 {
+    padding-top: 80px;
+}
